@@ -1,0 +1,25 @@
+[project]
+name = "embedding-mcp"
+version = "0.1.0"
+description = "Cross-language embedding MCP server with stdio and SSE transports"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic-settings>=2.0.0",
+    "onnxruntime>=1.16.0",
+    "transformers>=4.40.0",
+    "faiss-cpu>=1.8.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+cuda = ["onnxruntime-gpu>=1.16.0"]
+pgvector = ["asyncpg>=0.29.0"]
+
+[project.scripts]
+embedding-mcp-local = "embedding_mcp.mcp_local:main"
+embedding-mcp-network = "embedding_mcp.mcp_network:main"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
