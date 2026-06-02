@@ -1,8 +1,8 @@
 {
   "repo": "AlotfyDev/Embbeding_MCP_Server",
   "branch": "master",
-  "last_updated": "2026-06-02T14:28:30Z",
-  "file_count": 62,
+  "last_updated": "2026-06-02T17:00:56Z",
+  "file_count": 139,
   "files": [
     {
       "path": ".github/scripts/generate_repo_index.py",
@@ -125,6 +125,256 @@
       "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/07-memgraph-evaluation.md"
     },
     {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/00-index.md",
+      "filename": "00-index.md",
+      "extension": "md",
+      "size_bytes": 3408,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/00-index.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/00-index.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/01-architecture-overview.md",
+      "filename": "01-architecture-overview.md",
+      "extension": "md",
+      "size_bytes": 3708,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/01-architecture-overview.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/01-architecture-overview.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/02-wave1-schema-foundation.md",
+      "filename": "02-wave1-schema-foundation.md",
+      "extension": "md",
+      "size_bytes": 1552,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/02-wave1-schema-foundation.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/02-wave1-schema-foundation.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/03-wave2-pipeline-core.md",
+      "filename": "03-wave2-pipeline-core.md",
+      "extension": "md",
+      "size_bytes": 2393,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/03-wave2-pipeline-core.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/03-wave2-pipeline-core.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/04-wave3-capability-router.md",
+      "filename": "04-wave3-capability-router.md",
+      "extension": "md",
+      "size_bytes": 2049,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/04-wave3-capability-router.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/04-wave3-capability-router.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/05-wave4-pipeline-implementations.md",
+      "filename": "05-wave4-pipeline-implementations.md",
+      "extension": "md",
+      "size_bytes": 3292,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/05-wave4-pipeline-implementations.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/05-wave4-pipeline-implementations.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/06-wave5-configuration-yaml.md",
+      "filename": "06-wave5-configuration-yaml.md",
+      "extension": "md",
+      "size_bytes": 2357,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/06-wave5-configuration-yaml.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/06-wave5-configuration-yaml.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/07-wave6-mcp-integration.md",
+      "filename": "07-wave6-mcp-integration.md",
+      "extension": "md",
+      "size_bytes": 2703,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/07-wave6-mcp-integration.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/07-wave6-mcp-integration.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/08-wave7-testing-verification.md",
+      "filename": "08-wave7-testing-verification.md",
+      "extension": "md",
+      "size_bytes": 3622,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/08-wave7-testing-verification.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/08-wave7-testing-verification.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Implementation_Plan/09-wave8-finalization.md",
+      "filename": "09-wave8-finalization.md",
+      "extension": "md",
+      "size_bytes": 2757,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/09-wave8-finalization.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Implementation_Plan/09-wave8-finalization.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/01-pipeline-document-ingestion.md",
+      "filename": "01-pipeline-document-ingestion.md",
+      "extension": "md",
+      "size_bytes": 6055,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/01-pipeline-document-ingestion.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/01-pipeline-document-ingestion.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/02-pipeline-batch-ingestion.md",
+      "filename": "02-pipeline-batch-ingestion.md",
+      "extension": "md",
+      "size_bytes": 7130,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/02-pipeline-batch-ingestion.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/02-pipeline-batch-ingestion.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/03-pipeline-semantic-search.md",
+      "filename": "03-pipeline-semantic-search.md",
+      "extension": "md",
+      "size_bytes": 7347,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/03-pipeline-semantic-search.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/03-pipeline-semantic-search.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/04-pipeline-hybrid-search.md",
+      "filename": "04-pipeline-hybrid-search.md",
+      "extension": "md",
+      "size_bytes": 8137,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/04-pipeline-hybrid-search.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/04-pipeline-hybrid-search.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/05-pipeline-document-comparison.md",
+      "filename": "05-pipeline-document-comparison.md",
+      "extension": "md",
+      "size_bytes": 6343,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/05-pipeline-document-comparison.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/05-pipeline-document-comparison.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/06-pipeline-document-management.md",
+      "filename": "06-pipeline-document-management.md",
+      "extension": "md",
+      "size_bytes": 8089,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/06-pipeline-document-management.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/06-pipeline-document-management.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/07-capability-router.md",
+      "filename": "07-capability-router.md",
+      "extension": "md",
+      "size_bytes": 7888,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/07-capability-router.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/07-capability-router.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/08-schema-enforcement-layer.md",
+      "filename": "08-schema-enforcement-layer.md",
+      "extension": "md",
+      "size_bytes": 9673,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/08-schema-enforcement-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/08-schema-enforcement-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/09-pipeline-config-format.md",
+      "filename": "09-pipeline-config-format.md",
+      "extension": "md",
+      "size_bytes": 7858,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/09-pipeline-config-format.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/09-pipeline-config-format.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/10-response-projection-format.md",
+      "filename": "10-response-projection-format.md",
+      "extension": "md",
+      "size_bytes": 6234,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/10-response-projection-format.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/10-response-projection-format.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/11-stage-adapter-pattern.md",
+      "filename": "11-stage-adapter-pattern.md",
+      "extension": "md",
+      "size_bytes": 15254,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/11-stage-adapter-pattern.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/11-stage-adapter-pattern.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/12-filesystem-structure.md",
+      "filename": "12-filesystem-structure.md",
+      "extension": "md",
+      "size_bytes": 20427,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/12-filesystem-structure.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/12-filesystem-structure.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/13-pipeline-cli-layer.md",
+      "filename": "13-pipeline-cli-layer.md",
+      "extension": "md",
+      "size_bytes": 14724,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/13-pipeline-cli-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/13-pipeline-cli-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/14-pipeline-mcp-layer.md",
+      "filename": "14-pipeline-mcp-layer.md",
+      "extension": "md",
+      "size_bytes": 35496,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/14-pipeline-mcp-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/14-pipeline-mcp-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Pipelines_Phase/index.md",
+      "filename": "index.md",
+      "extension": "md",
+      "size_bytes": 4269,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/index.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Pipelines_Phase/index.md"
+    },
+    {
       "path": "Embedding MCP Server/__init__.py",
       "filename": "__init__.py",
       "extension": "py",
@@ -193,6 +443,476 @@
       "category": "code_or_asset",
       "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/config/settings.py",
       "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/config/settings.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 6091,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 4426,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/batch_ingest.py",
+      "filename": "batch_ingest.py",
+      "extension": "py",
+      "size_bytes": 3401,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/batch_ingest.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/batch_ingest.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/batch-ingest.yaml",
+      "filename": "batch-ingest.yaml",
+      "extension": "yaml",
+      "size_bytes": 838,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/batch-ingest.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/batch-ingest.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/document-compare.yaml",
+      "filename": "document-compare.yaml",
+      "extension": "yaml",
+      "size_bytes": 740,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-compare.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-compare.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/document-count.yaml",
+      "filename": "document-count.yaml",
+      "extension": "yaml",
+      "size_bytes": 268,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-count.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-count.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/document-delete.yaml",
+      "filename": "document-delete.yaml",
+      "extension": "yaml",
+      "size_bytes": 385,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-delete.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-delete.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/document-ingest.yaml",
+      "filename": "document-ingest.yaml",
+      "extension": "yaml",
+      "size_bytes": 974,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-ingest.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/document-ingest.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/hybrid-search.yaml",
+      "filename": "hybrid-search.yaml",
+      "extension": "yaml",
+      "size_bytes": 833,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/hybrid-search.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/hybrid-search.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/semantic-search.yaml",
+      "filename": "semantic-search.yaml",
+      "extension": "yaml",
+      "size_bytes": 759,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/semantic-search.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/semantic-search.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/configs/system-health.yaml",
+      "filename": "system-health.yaml",
+      "extension": "yaml",
+      "size_bytes": 462,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/system-health.yaml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/configs/system-health.yaml"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/doc_compare.py",
+      "filename": "doc_compare.py",
+      "extension": "py",
+      "size_bytes": 1710,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/doc_compare.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/doc_compare.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/hybrid_search.py",
+      "filename": "hybrid_search.py",
+      "extension": "py",
+      "size_bytes": 2698,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/hybrid_search.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/hybrid_search.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/router.py",
+      "filename": "router.py",
+      "extension": "py",
+      "size_bytes": 3245,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/router.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/router.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/semantic_search.py",
+      "filename": "semantic_search.py",
+      "extension": "py",
+      "size_bytes": 2469,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/semantic_search.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/semantic_search.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 1393,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/compare/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 261,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/compare/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 422,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/compare/cosine_similarity.py",
+      "filename": "cosine_similarity.py",
+      "extension": "py",
+      "size_bytes": 1260,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/cosine_similarity.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/compare/cosine_similarity.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/embed/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 346,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/embed/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 733,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/embed/passage_embed.py",
+      "filename": "passage_embed.py",
+      "extension": "py",
+      "size_bytes": 1175,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/passage_embed.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/passage_embed.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/embed/query_embed.py",
+      "filename": "query_embed.py",
+      "extension": "py",
+      "size_bytes": 1182,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/query_embed.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/embed/query_embed.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/management/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 431,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/management/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 440,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/management/count_stage.py",
+      "filename": "count_stage.py",
+      "extension": "py",
+      "size_bytes": 843,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/count_stage.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/count_stage.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/management/delete_stage.py",
+      "filename": "delete_stage.py",
+      "extension": "py",
+      "size_bytes": 1028,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/delete_stage.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/delete_stage.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/management/health_stage.py",
+      "filename": "health_stage.py",
+      "extension": "py",
+      "size_bytes": 1698,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/health_stage.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/management/health_stage.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/post_process/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 289,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/post_process/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 506,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/post_process/response_projector.py",
+      "filename": "response_projector.py",
+      "extension": "py",
+      "size_bytes": 2575,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/response_projector.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/post_process/response_projector.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/pre_process/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 372,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/pre_process/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 877,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/pre_process/normalize.py",
+      "filename": "normalize.py",
+      "extension": "py",
+      "size_bytes": 925,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/normalize.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/normalize.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/pre_process/strip.py",
+      "filename": "strip.py",
+      "extension": "py",
+      "size_bytes": 870,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/strip.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/pre_process/strip.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/search/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 251,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/search/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 598,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/search/semantic_search.py",
+      "filename": "semantic_search.py",
+      "extension": "py",
+      "size_bytes": 998,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/semantic_search.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/search/semantic_search.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/store/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 242,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/store/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 615,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/store/single_store.py",
+      "filename": "single_store.py",
+      "extension": "py",
+      "size_bytes": 1108,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/single_store.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/store/single_store.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/pipelines/stages/validation.py",
+      "filename": "validation.py",
+      "extension": "py",
+      "size_bytes": 1098,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/validation.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/pipelines/stages/validation.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/schema/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 427,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/schema/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/schema/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/schema/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 4536,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/schema/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/schema/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/schema/errors.py",
+      "filename": "errors.py",
+      "extension": "py",
+      "size_bytes": 583,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/schema/errors.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/schema/errors.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/schema/field_def.py",
+      "filename": "field_def.py",
+      "extension": "py",
+      "size_bytes": 5569,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/schema/field_def.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/schema/field_def.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_mcp/schema/registry.py",
+      "filename": "registry.py",
+      "extension": "py",
+      "size_bytes": 3546,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_mcp/schema/registry.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_mcp/schema/registry.py"
     },
     {
       "path": "Embedding MCP Server/embedding_model/__init__.py",
@@ -463,6 +1183,56 @@
       "category": "test",
       "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_service_real_flow.py",
       "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_service_real_flow.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/pipelines/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 33,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/pipelines/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/pipelines/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/pipelines/test_batch_ingest.py",
+      "filename": "test_batch_ingest.py",
+      "extension": "py",
+      "size_bytes": 3582,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/pipelines/test_batch_ingest.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/pipelines/test_batch_ingest.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/pipelines/test_router.py",
+      "filename": "test_router.py",
+      "extension": "py",
+      "size_bytes": 1865,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/pipelines/test_router.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/pipelines/test_router.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/pipelines/test_schema.py",
+      "filename": "test_schema.py",
+      "extension": "py",
+      "size_bytes": 4158,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/pipelines/test_schema.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/pipelines/test_schema.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/pipelines/test_stages.py",
+      "filename": "test_stages.py",
+      "extension": "py",
+      "size_bytes": 2797,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/pipelines/test_stages.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/pipelines/test_stages.py"
     },
     {
       "path": "Embedding MCP Server/tests/unit/__init__.py",
