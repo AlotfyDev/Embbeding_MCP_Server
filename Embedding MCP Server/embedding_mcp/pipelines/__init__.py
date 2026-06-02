@@ -105,7 +105,7 @@ class PipelineAssembler:
         sig = inspect.signature(stage_cls.__init__)
 
         if "model" in sig.parameters and self._settings:
-            from embedding_mcp.embedding_model.factory import create_embedding_model
+            from embedding_mcp.embedding_model.e5_model import create_embedding_model
             kwargs["model"] = create_embedding_model(
                 self._settings.embedding_model,
                 self._settings.embedding_model_path,
