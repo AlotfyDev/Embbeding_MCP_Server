@@ -44,6 +44,12 @@ class VectorDB(ABC):
         """Return total number of vectors stored."""
         ...
 
+    @property
+    @abstractmethod
+    def dim(self) -> int:
+        """Return expected vector dimension."""
+        ...
+
     @abstractmethod
     def clear(self) -> None:
         """Clear all vectors from the database."""

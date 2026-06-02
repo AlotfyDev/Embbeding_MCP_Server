@@ -10,9 +10,9 @@ import logging
 import signal
 
 from embedding_mcp.config import Settings
-from embedding_mcp.model import create_embedding_model
+from embedding_mcp.embedding_model.e5_model import create_embedding_model
 from embedding_mcp.vector_db import create_vector_db
-from embedding_mcp.service import EmbeddingService
+from embedding_mcp.embedding_service.service import EmbeddingService
 from embedding_mcp.mcp_network.network_server import create_sse_app
 from embedding_mcp.mcp_network.utils.port import find_free_port
 
@@ -28,9 +28,16 @@ def run_network_server(
     host: str = "127.0.0.1",
     port: int = 8000,
 ) -> None:
-    model = create_embedding_model(model_type, model_path, device)
-    vec_db = create_vector_db(vec_db_type, vec_db_path, dim=model.dim)
-    service = EmbeddingService(model, vec_db)
+    config = Settings(
+        embedding_model=model_type,
+        embedding_model_path=model_path,
+        embedding_device=device,
+        vec_db_type=vec_db_type,
+        vec_db_path=vec_db_path,
+    )
+    model = create_embedding_model(config.embedding_model, config.embedding_model_path, config.embedding_device, config.max_batch_size)
+    vec_db = create_vector_db(config.vec_db_type, config.vec_db_path, dim=model.dim)
+    service = EmbeddingService(model, vec_db, max_batch_size=config.max_batch_size, max_text_length=config.max_text_length)
     app = create_sse_app(service, host=host, port=port)
     logger.info("Embedding MCP Network server starting on %s:%s", host, port)
     app.run(transport="sse")

@@ -1,0 +1,7 @@
+.vscode
+.kilo
+.cline
+
+__pycache__/
+*.pyc
+.env

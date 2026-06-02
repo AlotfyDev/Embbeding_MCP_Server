@@ -10,15 +10,14 @@ from embedding_mcp.embedding_model import EmbeddingModel
 class E5Base(EmbeddingModel):
     """E5 model implementation with ONNX Runtime."""
 
-    _MAX_BATCH_SIZE = 32
-
-    def __init__(self, model_path: str, device: str = "cpu"):
+    def __init__(self, model_path: str, device: str = "cpu", max_batch_size: int = 32):
         import onnxruntime as ort
         from transformers import AutoTokenizer
 
         providers = ["CUDAExecutionProvider", "CPUExecutionProvider"] if device == "cuda" else ["CPUExecutionProvider"]
         self._session = ort.InferenceSession(f"{model_path}/model.onnx", providers=providers)
         self._tokenizer = AutoTokenizer.from_pretrained(model_path)
+        self._max_batch_size = max_batch_size
         self._max_length = 512
         self._prefix_passage = "passage: "
         self._prefix_query = "query: "
@@ -49,8 +48,8 @@ class E5Base(EmbeddingModel):
 
     def embed_batch(self, texts: list[str]) -> list[list[float]]:
         results = []
-        for i in range(0, len(texts), self._MAX_BATCH_SIZE):
-            batch = texts[i : i + self._MAX_BATCH_SIZE]
+        for i in range(0, len(texts), self._max_batch_size):
+            batch = texts[i : i + self._max_batch_size]
             results.extend(self._encode_batch(batch))
         return results
 
@@ -81,8 +80,8 @@ class E5Base(EmbeddingModel):
 class E5Small(E5Base):
     """E5-small variant (384 dimensions, BERT-based)."""
 
-    def __init__(self, model_path: str, device: str = "cpu"):
-        super().__init__(model_path, device)
+    def __init__(self, model_path: str, device: str = "cpu", max_batch_size: int = 32):
+        super().__init__(model_path, device, max_batch_size)
         self._max_length = 512
 
     @property
@@ -93,8 +92,8 @@ class E5Small(E5Base):
 class E5BaseLarge(E5Base):
     """E5-base variant (768 dimensions, XLM-RoBERTa-based)."""
 
-    def __init__(self, model_path: str, device: str = "cpu"):
-        super().__init__(model_path, device)
+    def __init__(self, model_path: str, device: str = "cpu", max_batch_size: int = 32):
+        super().__init__(model_path, device, max_batch_size)
         self._max_length = 514
 
     @property
@@ -102,11 +101,11 @@ class E5BaseLarge(E5Base):
         return 768
 
 
-def create_embedding_model(model_type: str, model_path: str, device: str = "cpu") -> EmbeddingModel:
+def create_embedding_model(model_type: str, model_path: str, device: str = "cpu", max_batch_size: int = 32) -> EmbeddingModel:
     """Create an embedding model based on type."""
     if model_type == "e5-small":
-        return E5Small(model_path, device)
+        return E5Small(model_path, device, max_batch_size)
     elif model_type == "e5-base":
-        return E5BaseLarge(model_path, device)
+        return E5BaseLarge(model_path, device, max_batch_size)
     else:
         raise ValueError(f"Unsupported model type: {model_type}")

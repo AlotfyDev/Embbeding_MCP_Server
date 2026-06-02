@@ -4,6 +4,7 @@ from __future__ import annotations
 import logging
 
 from embedding_mcp.embedding_model import EmbeddingModel
+from embedding_mcp.embedding_service.exceptions import DimensionMismatchError, ValidationError
 from embedding_mcp.vector_db.base import SearchResult
 
 logger = logging.getLogger(__name__)
@@ -18,16 +19,21 @@ class EmbeddingService:
     Uses dependency injection for model and vector DB.
     """
 
-    def __init__(self, model: EmbeddingModel, vec_db, max_batch_size: int = 32):
+    def __init__(self, model: EmbeddingModel, vec_db, max_batch_size: int = 32, max_text_length: int = 5000):
         self._model = model
         self._vec_db = vec_db
         self._max_batch_size = max_batch_size
+        self._max_text_length = max_text_length
+        if model.dim != vec_db.dim:
+            raise DimensionMismatchError(
+                f"Model dimension {model.dim} does not match vector DB dimension {vec_db.dim}"
+            )
 
     def _validate_text(self, text: str) -> None:
         if not text or not text.strip():
-            raise ValueError("Text must not be empty")
-        if len(text) > MAX_TEXT_LENGTH:
-            raise ValueError(f"Text exceeds {MAX_TEXT_LENGTH} characters")
+            raise ValidationError("Text must not be empty")
+        if len(text) > self._max_text_length:
+            raise ValidationError(f"Text exceeds {self._max_text_length} characters")
 
     def embed_text(self, text: str) -> list[float]:
         """Embed a single text as document."""
@@ -67,6 +73,10 @@ class EmbeddingService:
         self._validate_text(query)
         query_vec = self._model.embed_query(query)
         return self._vec_db.search(query_vec, top_k, filters)
+
+    def find_similar_to_doc(self, doc_key: str, top_k: int = 10) -> list[SearchResult]:
+        """Semantic search using a stored document's embedding."""
+        raise NotImplementedError("requires get_vector_by_key in VectorDB")
 
     def hybrid_search(self, query: str, keywords: list[str], top_k: int = 10) -> list[SearchResult]:
         """Semantic + keyword hybrid search with boosting."""

@@ -8,12 +8,8 @@ from pathlib import Path
 import faiss
 import numpy as np
 
+from embedding_mcp.embedding_service.exceptions import DimensionMismatchError
 from embedding_mcp.vector_db.base import VectorDB, SearchResult
-
-
-class DimensionMismatchError(RuntimeError):
-    """Raised when vector dimension doesn't match expected."""
-    pass
 
 
 class FAISSAdapter(VectorDB):
@@ -33,8 +29,7 @@ class FAISSAdapter(VectorDB):
         vec = np.array([vector], dtype=np.float32)
         self._index.add(vec)
         self._keys.append(key)
-        if metadata:
-            self._metadata[key] = metadata
+        self._metadata[key] = metadata or {}
         self._save()
 
     def store_batch(self, items: list[tuple[str, list[float], dict | None]]) -> None:
@@ -45,8 +40,7 @@ class FAISSAdapter(VectorDB):
         self._index.add(vectors)
         self._keys.extend([k for k, _, _ in items])
         for key, _, metadata in items:
-            if metadata:
-                self._metadata[key] = metadata
+            self._metadata[key] = metadata or {}
         self._save()
 
     def search(self, vector: list[float], top_k: int = 10, filters: dict | None = None) -> list[SearchResult]:
@@ -71,6 +65,10 @@ class FAISSAdapter(VectorDB):
             raise KeyError(f"Key {key} not found")
         idx = self._keys.index(key)
         self._reindex_without(key, idx)
+
+    @property
+    def dim(self) -> int:
+        return self._dim
 
     def count(self) -> int:
         return len(self._keys)
@@ -103,11 +101,13 @@ class FAISSAdapter(VectorDB):
 
     def _reindex_without(self, key_to_remove: str, remove_idx: int) -> None:
         all_vectors = np.vstack([self._index.reconstruct(i) for i in range(self._index.ntotal)])
+        all_vectors = np.delete(all_vectors, remove_idx, axis=0)
         all_keys = [k for k in self._keys if k != key_to_remove]
         all_metadata = {k: v for k, v in self._metadata.items() if k != key_to_remove}
 
         self._index = faiss.IndexFlatIP(self._dim)
-        self._index.add(all_vectors)
+        if len(all_vectors) > 0:
+            self._index.add(all_vectors)
         self._keys = all_keys
         self._metadata = all_metadata
         self._save()
