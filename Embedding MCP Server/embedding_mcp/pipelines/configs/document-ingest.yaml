@@ -1,0 +1,47 @@
+capability: document.ingest
+version: "1.0"
+description: "Embed and store a single document"
+
+schema:
+  name: DocumentIngestSchema
+  required: [key, text]
+  fields:
+    key:
+      type: string
+      required: true
+      description: "Unique document identifier"
+      regex: "^[a-zA-Z0-9_-]+$"
+    text:
+      type: string
+      required: true
+      max_length: 5000
+      description: "Document content"
+    metadata.type:
+      type: string
+      enum: [doc, note, ticket, code]
+      default: doc
+    metadata.source:
+      type: string
+      default: ""
+    metadata.version:
+      type: integer
+      min: 1
+      max: 999
+      default: 1
+
+pipeline:
+  pre_process:
+    - stage: strip
+      config: {}
+    - stage: normalize_whitespace
+      config: {}
+  embed:
+    prefix: "passage: "
+    model_field: embedding_model
+    batch_size: 1
+  store:
+    db_type_field: vec_db_type
+  post_process:
+    - stage: format_response
+      config:
+        fields: [status, key, dim]
