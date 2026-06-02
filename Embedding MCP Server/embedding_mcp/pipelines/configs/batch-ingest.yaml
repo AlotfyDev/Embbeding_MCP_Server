@@ -1,0 +1,39 @@
+capability: document.ingest.batch
+version: "1.0"
+description: "Embed and store multiple documents in batch"
+
+schema:
+  name: BatchIngestSchema
+  required: [items]
+  fields:
+    items:
+      type: array
+      max_length: 32
+      item_schema:
+        ref: DocumentIngestSchema
+    response_fields:
+      type: array
+      items:
+        type: string
+      optional: true
+
+pipeline:
+  pre_process:
+    - stage: strip
+      config: {}
+    - stage: normalize_whitespace
+      config: {}
+  embed:
+    prefix: "passage: "
+    model_field: embedding_model
+    batch_size_field: max_batch_size
+  store:
+    db_type_field: vec_db_type
+    batch_size_field: max_batch_size
+  post_process:
+    - stage: response_projection
+      config:
+        fields_param: response_fields
+    - stage: format_response
+      config:
+        fields: [status, count]

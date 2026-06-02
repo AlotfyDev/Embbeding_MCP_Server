@@ -1,0 +1,34 @@
+capability: document.compare
+version: "1.0"
+description: "Compare two documents via cosine similarity"
+
+schema:
+  name: DocumentCompareSchema
+  required: [key_a, key_b]
+  fields:
+    key_a:
+      type: string
+      description: "First document key or text"
+    key_b:
+      type: string
+      description: "Second document key or text"
+    response_fields:
+      type: array
+      items:
+        type: string
+      optional: true
+
+pipeline:
+  embed:
+    prefix: "passage: "
+    model_field: embedding_model
+    source: text
+  compute:
+    metric: cosine
+  post_process:
+    - stage: response_projection
+      config:
+        fields_param: response_fields
+    - stage: format_response
+      config:
+        fields: [similarity, key_a, key_b]

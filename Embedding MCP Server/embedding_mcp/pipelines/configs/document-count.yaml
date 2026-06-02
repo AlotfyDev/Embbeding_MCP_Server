@@ -1,0 +1,16 @@
+capability: document.count
+version: "1.0"
+description: "Count stored documents"
+
+schema:
+  name: DocumentCountSchema
+  required: []
+  fields: {}
+
+pipeline:
+  execute:
+    - stage: count
+  post_process:
+    - stage: format_response
+      config:
+        fields: [count]

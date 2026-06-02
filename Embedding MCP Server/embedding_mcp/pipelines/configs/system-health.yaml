@@ -1,0 +1,22 @@
+capability: system.health
+version: "1.0"
+description: "Check system health status"
+
+schema:
+  name: HealthSchema
+  required: []
+  fields: {}
+
+pipeline:
+  checks:
+    - stage: check_embedding_model
+      config:
+        model_field: embedding_model
+        probe_text: "health check"
+    - stage: check_vector_db
+      config:
+        db_type_field: vec_db_type
+  post_process:
+    - stage: format_response
+      config:
+        fields: [status, model, vector_db]

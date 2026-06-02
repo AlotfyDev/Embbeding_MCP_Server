@@ -1,0 +1,21 @@
+capability: document.delete
+version: "1.0"
+description: "Delete a document by key"
+
+schema:
+  name: DocumentDeleteSchema
+  required: [key]
+  fields:
+    key:
+      type: string
+      description: "Document key to delete"
+
+pipeline:
+  pre_process:
+    - stage: strip
+  execute:
+    - stage: delete
+  post_process:
+    - stage: format_response
+      config:
+        fields: [status, key]

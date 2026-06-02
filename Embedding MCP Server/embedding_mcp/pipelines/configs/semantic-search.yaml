@@ -1,0 +1,39 @@
+capability: search.semantic
+version: "1.0"
+description: "Semantic search using query embedding"
+
+schema:
+  name: SemanticSearchSchema
+  required: [query]
+  fields:
+    query:
+      type: string
+      max_length: 5000
+      description: "Search query"
+    top_k:
+      type: integer
+      min: 1
+      max: 100
+      default: 10
+    filters:
+      type: object
+      optional: true
+    response_fields:
+      type: array
+      items:
+        type: string
+      optional: true
+
+pipeline:
+  embed:
+    prefix: "query: "
+    model_field: embedding_model
+  search:
+    db_type_field: vec_db_type
+  post_process:
+    - stage: response_projection
+      config:
+        fields_param: response_fields
+    - stage: format_response
+      config:
+        type: json_array

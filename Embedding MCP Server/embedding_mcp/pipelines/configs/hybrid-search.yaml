@@ -1,0 +1,43 @@
+capability: search.hybrid
+version: "1.0"
+description: "Hybrid search with semantic + keyword boosting"
+
+schema:
+  name: HybridSearchSchema
+  required: [query, keywords]
+  fields:
+    query:
+      type: string
+      max_length: 5000
+    keywords:
+      type: array
+      items:
+        type: string
+    top_k:
+      type: integer
+      min: 1
+      max: 100
+      default: 10
+    boost_factor:
+      type: number
+      min: 0
+      default: 0.1
+    response_fields:
+      type: array
+      items:
+        type: string
+      optional: true
+
+pipeline:
+  embed:
+    prefix: "query: "
+    model_field: embedding_model
+  search:
+    db_type_field: vec_db_type
+    over_fetch_factor: 2
+  keyword_boost:
+    boost_factor_field: boost_factor
+  post_process:
+    - stage: response_projection
+      config:
+        fields_param: response_fields
