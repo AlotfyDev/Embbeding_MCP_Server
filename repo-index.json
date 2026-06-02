@@ -1,0 +1,628 @@
+{
+  "repo": "AlotfyDev/Embbeding_MCP_Server",
+  "branch": "master",
+  "last_updated": "2026-06-02T14:28:30Z",
+  "file_count": 62,
+  "files": [
+    {
+      "path": ".github/scripts/generate_repo_index.py",
+      "filename": "generate_repo_index.py",
+      "extension": "py",
+      "size_bytes": 2628,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/.github/scripts/generate_repo_index.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/.github/scripts/generate_repo_index.py"
+    },
+    {
+      "path": ".github/workflows/ascc-header-audit.yml",
+      "filename": "ascc-header-audit.yml",
+      "extension": "yml",
+      "size_bytes": 1038,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/.github/workflows/ascc-header-audit.yml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/.github/workflows/ascc-header-audit.yml"
+    },
+    {
+      "path": ".github/workflows/ascc-smoke-tests.yml",
+      "filename": "ascc-smoke-tests.yml",
+      "extension": "yml",
+      "size_bytes": 3688,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/.github/workflows/ascc-smoke-tests.yml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/.github/workflows/ascc-smoke-tests.yml"
+    },
+    {
+      "path": ".github/workflows/create-repo-index.yml",
+      "filename": "create-repo-index.yml",
+      "extension": "yml",
+      "size_bytes": 1121,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/.github/workflows/create-repo-index.yml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/.github/workflows/create-repo-index.yml"
+    },
+    {
+      "path": ".gitignore",
+      "filename": ".gitignore",
+      "extension": "",
+      "size_bytes": 46,
+      "top_level_dir": ".gitignore",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/.gitignore",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/.gitignore"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/01-embedding-model-layer.md",
+      "filename": "01-embedding-model-layer.md",
+      "extension": "md",
+      "size_bytes": 7374,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/01-embedding-model-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/01-embedding-model-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/02-vector-db-adapter-layer.md",
+      "filename": "02-vector-db-adapter-layer.md",
+      "extension": "md",
+      "size_bytes": 8553,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/02-vector-db-adapter-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/02-vector-db-adapter-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/03-embedding-service-layer.md",
+      "filename": "03-embedding-service-layer.md",
+      "extension": "md",
+      "size_bytes": 8695,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/03-embedding-service-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/03-embedding-service-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/04-configuration-layer.md",
+      "filename": "04-configuration-layer.md",
+      "extension": "md",
+      "size_bytes": 6980,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/04-configuration-layer.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/04-configuration-layer.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/05-embedding-mcp-local-server.md",
+      "filename": "05-embedding-mcp-local-server.md",
+      "extension": "md",
+      "size_bytes": 7291,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/05-embedding-mcp-local-server.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/05-embedding-mcp-local-server.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/06-embedding-mcp-network-server.md",
+      "filename": "06-embedding-mcp-network-server.md",
+      "extension": "md",
+      "size_bytes": 9354,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/06-embedding-mcp-network-server.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/06-embedding-mcp-network-server.md"
+    },
+    {
+      "path": "Embedding MCP Server/.docs/Phase0/07-memgraph-evaluation.md",
+      "filename": "07-memgraph-evaluation.md",
+      "extension": "md",
+      "size_bytes": 6782,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/.docs/Phase0/07-memgraph-evaluation.md",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/.docs/Phase0/07-memgraph-evaluation.md"
+    },
+    {
+      "path": "Embedding MCP Server/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 448,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/__main__.py",
+      "filename": "__main__.py",
+      "extension": "py",
+      "size_bytes": 3168,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/__main__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/__main__.py"
+    },
+    {
+      "path": "Embedding MCP Server/common/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 629,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/common/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/common/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/common/constants.py",
+      "filename": "constants.py",
+      "extension": "py",
+      "size_bytes": 314,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/common/constants.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/common/constants.py"
+    },
+    {
+      "path": "Embedding MCP Server/common/typing.py",
+      "filename": "typing.py",
+      "extension": "py",
+      "size_bytes": 260,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/common/typing.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/common/typing.py"
+    },
+    {
+      "path": "Embedding MCP Server/config/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 104,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/config/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/config/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/config/settings.py",
+      "filename": "settings.py",
+      "extension": "py",
+      "size_bytes": 2606,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/config/settings.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/config/settings.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_model/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 792,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_model/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_model/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_model/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_model/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_model/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_model/e5_model.py",
+      "filename": "e5_model.py",
+      "extension": "py",
+      "size_bytes": 3941,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_model/e5_model.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_model/e5_model.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_model/factory.py",
+      "filename": "factory.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_model/factory.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_model/factory.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_service/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 425,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_service/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_service/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_service/exceptions.py",
+      "filename": "exceptions.py",
+      "extension": "py",
+      "size_bytes": 651,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_service/exceptions.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_service/exceptions.py"
+    },
+    {
+      "path": "Embedding MCP Server/embedding_service/service.py",
+      "filename": "service.py",
+      "extension": "py",
+      "size_bytes": 4887,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/embedding_service/service.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/embedding_service/service.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_local/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 2686,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_local/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_local/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_local/__main__.py",
+      "filename": "__main__.py",
+      "extension": "py",
+      "size_bytes": 98,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_local/__main__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_local/__main__.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_local/handlers.py",
+      "filename": "handlers.py",
+      "extension": "py",
+      "size_bytes": 1419,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_local/handlers.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_local/handlers.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_local/local_server.py",
+      "filename": "local_server.py",
+      "extension": "py",
+      "size_bytes": 3489,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_local/local_server.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_local/local_server.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_local/tools.py",
+      "filename": "tools.py",
+      "extension": "py",
+      "size_bytes": 2315,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_local/tools.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_local/tools.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_network/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 2971,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_network/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_network/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_network/__main__.py",
+      "filename": "__main__.py",
+      "extension": "py",
+      "size_bytes": 102,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_network/__main__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_network/__main__.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_network/network_server.py",
+      "filename": "network_server.py",
+      "extension": "py",
+      "size_bytes": 3573,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_network/network_server.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_network/network_server.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_network/utils/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_network/utils/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_network/utils/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/mcp_network/utils/port.py",
+      "filename": "port.py",
+      "extension": "py",
+      "size_bytes": 2003,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/mcp_network/utils/port.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/mcp_network/utils/port.py"
+    },
+    {
+      "path": "Embedding MCP Server/pyproject.toml",
+      "filename": "pyproject.toml",
+      "extension": "toml",
+      "size_bytes": 1039,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/pyproject.toml",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/pyproject.toml"
+    },
+    {
+      "path": "Embedding MCP Server/tests/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/conftest.py",
+      "filename": "conftest.py",
+      "extension": "py",
+      "size_bytes": 4316,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/conftest.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/conftest.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/conftest.py",
+      "filename": "conftest.py",
+      "extension": "py",
+      "size_bytes": 1663,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/conftest.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/conftest.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/test_config_integration.py",
+      "filename": "test_config_integration.py",
+      "extension": "py",
+      "size_bytes": 2285,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_config_integration.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_config_integration.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/test_embedding_model_real.py",
+      "filename": "test_embedding_model_real.py",
+      "extension": "py",
+      "size_bytes": 2415,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_embedding_model_real.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_embedding_model_real.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/test_faiss_e2e.py",
+      "filename": "test_faiss_e2e.py",
+      "extension": "py",
+      "size_bytes": 3233,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_faiss_e2e.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_faiss_e2e.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/test_mcp_local_server.py",
+      "filename": "test_mcp_local_server.py",
+      "extension": "py",
+      "size_bytes": 3516,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_mcp_local_server.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_mcp_local_server.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/integration/test_service_real_flow.py",
+      "filename": "test_service_real_flow.py",
+      "extension": "py",
+      "size_bytes": 4193,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/integration/test_service_real_flow.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/integration/test_service_real_flow.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 0,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_config.py",
+      "filename": "test_config.py",
+      "extension": "py",
+      "size_bytes": 3260,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_config.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_config.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_embedding_model.py",
+      "filename": "test_embedding_model.py",
+      "extension": "py",
+      "size_bytes": 1432,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_embedding_model.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_embedding_model.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_embedding_service.py",
+      "filename": "test_embedding_service.py",
+      "extension": "py",
+      "size_bytes": 6026,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_embedding_service.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_embedding_service.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_handlers.py",
+      "filename": "test_handlers.py",
+      "extension": "py",
+      "size_bytes": 2884,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_handlers.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_handlers.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_tools.py",
+      "filename": "test_tools.py",
+      "extension": "py",
+      "size_bytes": 935,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_tools.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_tools.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_vector_db_base.py",
+      "filename": "test_vector_db_base.py",
+      "extension": "py",
+      "size_bytes": 3931,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_vector_db_base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_vector_db_base.py"
+    },
+    {
+      "path": "Embedding MCP Server/tests/unit/test_vector_db_factory.py",
+      "filename": "test_vector_db_factory.py",
+      "extension": "py",
+      "size_bytes": 2599,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/tests/unit/test_vector_db_factory.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/tests/unit/test_vector_db_factory.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 217,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/__init__.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 1506,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/base.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/base.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/factory.py",
+      "filename": "factory.py",
+      "extension": "py",
+      "size_bytes": 1710,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/factory.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/factory.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/faiss_adapter.py",
+      "filename": "faiss_adapter.py",
+      "extension": "py",
+      "size_bytes": 4376,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/faiss_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/faiss_adapter.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/falkordb_adapter.py",
+      "filename": "falkordb_adapter.py",
+      "extension": "py",
+      "size_bytes": 4920,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/falkordb_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/falkordb_adapter.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/kuzudb_adapter.py",
+      "filename": "kuzudb_adapter.py",
+      "extension": "py",
+      "size_bytes": 4222,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/kuzudb_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/kuzudb_adapter.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/ladybug_adapter.py",
+      "filename": "ladybug_adapter.py",
+      "extension": "py",
+      "size_bytes": 3595,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/ladybug_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/ladybug_adapter.py"
+    },
+    {
+      "path": "Embedding MCP Server/vector_db/pgvector_adapter.py",
+      "filename": "pgvector_adapter.py",
+      "extension": "py",
+      "size_bytes": 6035,
+      "top_level_dir": "Embedding MCP Server",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/Embbeding_MCP_Server/master/Embedding%20MCP%20Server/vector_db/pgvector_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/Embbeding_MCP_Server/blob/master/Embedding%20MCP%20Server/vector_db/pgvector_adapter.py"
+    }
+  ]
+}
